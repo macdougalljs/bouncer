@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>The Virtual Bouncer</title>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="css/site.css">
+    </head>
+    <body>
+        <div>
+            <img style="width:400px" src="images/R_high.gif">
+            <br>
+            <form action="access" method="POST">
+                <input type="hidden" name="access" value="granted">
+                <input type="submit" value="I'm An Adult!">
+            </form>
+            <form action="access" method="POST">
+                <input type="hidden" name="access" value="denied">
+                <input type="submit" value="I'm A Minor">
+            </form>
+        </div>
+    </body>
+</html>

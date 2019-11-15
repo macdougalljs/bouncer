@@ -1,0 +1,29 @@
+/* 
+    Description:
+        Style for virtual bouncer app.
+*/
+body {
+    background-color:gray;
+}
+div {
+    width:500px;
+    margin:auto;
+    background-color:white;
+    padding:20px;
+    text-align:center;
+}
+form {
+    display: inline;
+}
+input {
+    padding:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font:sans-serif;
+    font-style:italic;
+    font-size:20px;   
+}
+h1 {
+    font-family:sans-serif;
+}
+
